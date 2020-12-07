@@ -40,6 +40,6 @@ public class _00_TestSpecialString {
 	public void testCustomString() {
 		SpecialString cs = new CustomString("This is an additional test");
 		System.out.println(cs);
-		assertEquals("THIS IS ALSO A TEST", cs.toString())
+		assertEquals("THIS IS AN ADDITIONAL TEST", cs.toString());
 	}
 }
